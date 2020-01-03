@@ -2,13 +2,14 @@ footer {
     text-align: center;
 }
 
-ion-icon {
-	transform: scale(2);
+.footer-logos {
+	transform: scale(1.2);
 	margin: .75rem;
 	color: ivory;
 	transition: all .3s;
 }
 
-ion-icon:hover {
-	transform: scale(2.8);
+.footer-logos:hover {
+	transform: scale(2.4);
+	color: #d4af37;
 }

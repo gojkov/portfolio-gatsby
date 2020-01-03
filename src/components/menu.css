@@ -7,13 +7,25 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    max-width: 95vw;
 }
 
-li Link {
+a {
     text-decoration: none;
+    color: ivory;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: .85rem;
 }
 
 img:hover {
     transform: scale(1.15);
+	transition: all .3s;
+}
+
+li a:hover {
+    transform: scale(1.1);
+	font-weight: bold;
 	transition: all .3s;
 }
