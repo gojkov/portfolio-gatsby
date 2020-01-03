@@ -1,0 +1,19 @@
+div {
+    background: transparent;
+    padding-top: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li Link {
+    text-decoration: none;
+}
+
+img:hover {
+    transform: scale(1.15);
+	transition: all .3s;
+}

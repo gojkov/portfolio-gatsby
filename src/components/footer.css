@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+}
+
+ion-icon {
+	transform: scale(2);
+	margin: .75rem;
+	color: ivory;
+	transition: all .3s;
+}
+
+ion-icon:hover {
+	transform: scale(2.8);
+}

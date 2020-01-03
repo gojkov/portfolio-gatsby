@@ -5,6 +5,9 @@ html {
 }
 body {
   margin: 0;
+  background-image: url('../images/detroit.jpg');
+  background-size: cover;
+  color: ivory;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
